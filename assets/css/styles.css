@@ -51,7 +51,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: "Ubuntu", sans-serif;
   font-size: var(--normal-font-size);
-  background: url('/assets/img/bg.jpg') no-repeat;
+ background-image: url("assets/img/bg.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -424,7 +424,6 @@ img {
 /* ABOUT US*/
 
 #about{
-  background-image: url("assets/img/bg.jpg");
     width: 100%;
     min-height: 105vh;
     display: grid;
